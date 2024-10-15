@@ -6,9 +6,6 @@ export default function home() {
   
   return(
   <><ul>
-    <li><button onClick={() => router.push('/')}>
-      Home
-    </button></li>
     <li><button onClick={() => router.push('/entrees')}>
         Entrees
     </button></li>

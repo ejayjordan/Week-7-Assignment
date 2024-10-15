@@ -7,7 +7,7 @@ export default function() {
   return(
     <><text>
       <ul>
-  <li><button onClick={() => router.push('/home')}>
+  <li><button onClick={() => router.push('/')}>
       Home
     </button></li>
     <li><button onClick={() => router.push('/entrees')}>
